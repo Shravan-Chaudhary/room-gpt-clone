@@ -6,7 +6,8 @@ const font = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Room GPT",
-  description: "Room GPT is a cutting-edge application that uses AI to recreate images of rooms based on user input.",
+  description:
+    "Room GPT is a cutting-edge application that uses AI to recreate images of rooms based on user input. By leveraging replicate ai",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }): JSX.Element {
