@@ -5,11 +5,7 @@
       {
         "name": "next"
       }
-    ],
-    "baseUrl": ".",
-    "paths": {
-       "@/*": ["./*"]
-     },
+    ]
   },
   "include": [
     "next-env.d.ts",
@@ -18,6 +14,5 @@
     "**/*.tsx",
     ".next/types/**/*.ts"
   ],
-  "exclude": ["node_modules",],
-  "ignorePatterns": ["**/*.test.ts", "**/*.test.tsx", "**/*.spec.ts", "**/*.spec.tsx"],
+  "exclude": ["node_modules"]
 }
