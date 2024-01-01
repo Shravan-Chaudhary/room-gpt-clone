@@ -2,6 +2,7 @@ import PrimaryButton from "@/components/PrimaryButton";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import logo from "@/public/images/logo/logo.svg";
+import Heading from "@/components/typography/Heading";
 
 const Page = () => {
   return (
@@ -13,6 +14,9 @@ const Page = () => {
       <PrimaryButton>Get Started</PrimaryButton>
       <div>
         <Image src={logo} width={100} height={100} alt="logo" />
+        <Heading size="h1" tagType="h2" bold="full">
+          Hello World
+        </Heading>
       </div>
     </div>
   );
